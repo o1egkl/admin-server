@@ -8,7 +8,7 @@ CREATE TABLE IF NOT EXISTS `admin`.`users` (
   PRIMARY KEY (`user_id`),
   UNIQUE KEY `user_name` (`user_name`),
   UNIQUE KEY `user_email` (`user_email`)
-) ENGINE=INNODB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci ;
+)  ;
 
 CREATE TABLE IF NOT EXISTS `admin`.`tracker` (
 `id` INT(11) NOT NULL AUTO_INCREMENT,
